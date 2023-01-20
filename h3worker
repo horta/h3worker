@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ $# != 0 ]; then
+	echo "Usage: h3worker" >&2
+	exit 1
+fi
+
+/usr/local/bin/hmmpgmd --worker 127.0.0.1

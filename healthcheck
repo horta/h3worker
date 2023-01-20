@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/usr/bin/test $(/usr/bin/lsof | /bin/grep -c /usr/local/bin/hmmpgmd) -eq 4
